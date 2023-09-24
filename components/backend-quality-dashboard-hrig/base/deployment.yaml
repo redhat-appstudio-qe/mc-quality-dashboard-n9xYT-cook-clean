@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-hrig
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-btws-tenant/mc-quality-dashboard/backend-quality-dashboard-hrig@sha256:2da308d8ebcdd3253725d2ca9f413c0eb0bc1ef179f8c74df0d0a0e09b2d1113
         imagePullPolicy: Always
         name: container-image
         ports:
